@@ -32,17 +32,27 @@ El proyecto fue realizado con los siguientes recursos:
 ***
 
 ## Instalación
-#### Global (navegador)
 
-`<script src="path-to-cardify.js"></script>`
-***
+Para usos de esta librería, es necesario que sepas que es compatible con jQuery y Materialize, por lo que necesitas tenerlos instalados en tu proyecto y enlazados en tu archivo `HTML`.
 
+#### Desde node
 
 Para comenzar necesitas tener instalado [Node](https://nodejs.org/es/).
 
 1. Abre la terminal y digita `npm init` para inicializar npm en tu proyecto.
-2. En la terminal corre `npm install cardifyproyect` para instalar el plugin.
-3. Es necesario instalar [Browserify](http://browserify.org/) `npm install -g browserify`
+2. En la terminal corre `npm i cardifyproyectdemo` para instalar el plugin.
+3. Enlazar el archivo `cardify.js` a tu `index.html`.
+4. El contenedor donde tienes las imágenes deben tener una clase `imgToWrap`.
+5. _Recuerda darle la clase `responsive-img` a tus imágenes y que estas contengan un texto alterno en su attributo `alt`_.
+6. Y listo :D
+
+#### Desde gitHub
+
+1. Clona este repositorio.
+2. En tu terminal digita `npm install` para correr los módulos instalados.
+3. Enlaza el archivo `cardify.js` en tu `index.html`.
+4. Y listo :D
+
 
 ***
 
