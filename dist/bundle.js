@@ -1,7 +1,7 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
-const CARDIFY = require('./src/cardify');
+const CARDIFY = require('./src/cardify.js');
 
-},{"../src/cardify.js":3}],2:[function(require,module,exports){
+},{"./src/cardify.js":3}],2:[function(require,module,exports){
 /*!
  * jQuery JavaScript Library v3.3.1
  * https://jquery.com/
@@ -10382,7 +10382,7 @@ $(document).ready(function() {
         var imgAlt = allImages[i].alt;
         $(allImages[i]).wrap('<div class="wrapper"/>').
           wrap('<figure>').
-          after('<figcaption style="display : none" >' + imgAlt +
+          after('<figcaption style="display:none" >' + imgAlt +
           '</figcaption></figure></div>');
       }
     }
@@ -10391,11 +10391,14 @@ $(document).ready(function() {
         $(this).find('figcaption').css({
           'display': 'block'
         });
+        $(this).find('img').css({
+          'cursor': 'pointer'
+        });
         $(this).find('figcaption').css({
           'background-color': 'rgb(76, 160, 175)',
           'color': 'white',
-          'font-size': '16px',
-          'padding': '16px 32px',
+          'font-size': '1em',
+          'padding': '1em 2em',
           'transition': 'ease',
           'opacity': '0',
           'position': 'absolute',
@@ -10404,7 +10407,8 @@ $(document).ready(function() {
           'transform': 'translate(-50%, -50%)',
           '-ms-transform': 'translate(-50%, -50%)',
           'text-align': 'center',
-          'opacity': '1'
+          'opacity': '1',
+          'cursor': 'pointer'
         });
         $(this).find('.imgToWrap').css({
           'opacity': '0.3'
