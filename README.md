@@ -1,10 +1,4 @@
 
-
-
-# Cardify    
-[![GitHub issue age](https://img.shields.io/badge/Created-January%202018-yellow.svg?style=for-the-badge)](https://github.com/PazAutumn/cardify) 
-
-[![autores](https://img.shields.io/badge/author-natynatur%2C%20lpalominosf%2C%20pinalef-yellow.svg?style=for-the-badge)](https://github.com/NatyNatur/cardify)
 # Proyecto Cardify
 
 Cardify es un proyecto diseñado para Laboratoria, es una librería (plugin) de JQuery que se ejecuta en un contenedor con la clase imageToWrap, buscando todas las imágenes que encuentra dentro del contenedor y reemplazándolas por un nuevo elemento `<figure>` que contiene la imagen además de un `<figcaption>` con el texto del atributo alt de la imagen.
@@ -38,7 +32,7 @@ El proyecto fue realizado con los siguientes recursos:
 ***
 
 ## Instalación
-####Global (navegador)
+#### Global (navegador)
 
 `<script src="path-to-cardify.js"></script>`
 ***
@@ -46,7 +40,7 @@ El proyecto fue realizado con los siguientes recursos:
 
 Para comenzar necesitas tener instalado [Node](https://nodejs.org/es/).
 
-1.  Abre la terminal y digita `npm init` para inicializar npm en tu proyecto.
+1. Abre la terminal y digita `npm init` para inicializar npm en tu proyecto.
 2. En la terminal corre `npm install cardifyproyect` para instalar el plugin.
 3. Es necesario instalar [Browserify](http://browserify.org/) `npm install -g browserify`
 
