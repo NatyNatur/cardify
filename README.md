@@ -29,6 +29,22 @@ El proyecto fue realizado con los siguientes recursos:
   - NPM `~v.5.6.0`
   - Uniq `~v.1.0.1`
 
+
+***
+
+## Ejemplos
+
+Inicialmente tu código se vería así:
+
+>![codigo html](assets/img/html.png)
+
+Al aplicar el plugin cardify, tu estructura se verá así.
+>![codigo html con plugin cardify.js](assets/img/html2.png)
+
+Al pasar el cursor sobre las imagenes veras este efecto.
+
+![gif ejemplo](assets/img/ejemplos.gif)
+
 ***
 
 ## Instalación
@@ -57,19 +73,3 @@ Para comenzar necesitas tener instalado [Node](https://nodejs.org/es/).
 
 1. Enlaza el siguiente link en tu archivo html `https://cdn.rawgit.com/NatyNatur/cardify/cardifyproyect/src/cardify.js`.
 2. Recuerda instalar Materialize y jQuery.
-
-
-***
-
-## Ejemplos
-
-Inicialmente tu código se vería así:
-
->![codigo html](assets/img/html.png)
-
-Al aplicar el plugin cardify, tu estructura se verá así.
->![codigo html con plugin cardify.js](assets/img/html2.png)
-
-Al pasar el cursor sobre las imagenes veras este efecto.
-
-![gif ejemplo](assets/img/ejemplos.gif)
