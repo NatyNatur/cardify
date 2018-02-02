@@ -72,4 +72,4 @@ Al aplicar el plugin cardify, tu estructura se verá así.
 
 Al pasar el cursor sobre las imagenes veras este efecto.
 
-![gif ejemplo](assets/img/ejemplo.gif)
+![gif ejemplo](assets/img/ejemplos.gif)
