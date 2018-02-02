@@ -11,7 +11,7 @@ $(document).ready(function() {
       if (allImages[i].alt && allImages[i].alt.length > 0) {
         var imgAlt = allImages[i].alt;
         $(allImages[i]).wrap('<div class="wrapper"/>').
-          wrap('<figure>').
+          wrap('<figure style="margin:0">').
           after('<figcaption style="display:none" >' + imgAlt +
           '</figcaption></figure></div>');
       }

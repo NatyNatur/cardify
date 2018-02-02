@@ -46,12 +46,17 @@ Para comenzar necesitas tener instalado [Node](https://nodejs.org/es/).
 5. _Recuerda darle la clase `responsive-img` a tus imágenes y que estas contengan un texto alterno en su attributo `alt`_.
 6. Y listo :D
 
-#### Desde gitHub
+#### Desde GitHub
 
 1. Clona este repositorio.
 2. En tu terminal digita `npm install` para correr los módulos instalados.
 3. Enlaza el archivo `cardify.js` en tu `index.html`.
 4. Y listo :D
+
+#### Con CDN
+
+1. Enlaza el siguiente link en tu archivo html `https://cdn.rawgit.com/NatyNatur/cardify/cardifyproyect/src/cardify.js`.
+2. Recuerda instalar Materialize y jQuery.
 
 
 ***
@@ -67,4 +72,4 @@ Al aplicar el plugin cardify, tu estructura se verá así.
 
 Al pasar el cursor sobre las imagenes veras este efecto.
 
-![gif ejemplo](assets/img/screen.gif)
+![gif ejemplo](assets/img/ejemplo.gif)
